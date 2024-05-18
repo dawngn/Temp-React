@@ -2,7 +2,7 @@
 import { Fragment, Suspense, useEffect, useState } from 'react'
 import { RouterProvider } from 'react-router-dom'
 
-import Preloader from '@/components/shared/Preloader'
+import Preloader from '@/components/shared/preloader'
 import { useAuthStore } from '@/store/auth.store'
 
 import { AppRouter } from './app.router'
