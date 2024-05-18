@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import App from './App.tsx'
+import Router from '@/routes'
+
 import RootProvider from './features/Providers/index.tsx'
 
 import './index.css'
@@ -9,7 +10,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
 		<RootProvider>
-			<App />
+			<Router />
 		</RootProvider>
 	</React.StrictMode>
 )
