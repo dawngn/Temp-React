@@ -1,25 +1,21 @@
 {
-  "bracketSpacing": true,
-  "endOfLine": "auto",
-  "printWidth": 120,
-  "semi": false,
-  "singleQuote": true,
-  "jsxSingleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "es5",
-  "importOrder": [
-    "^react(.*)$",
-    "^react-dom(.*)$",
-    "^react-router-dom(.*)$",
-    "<THIRD_PARTY_MODULES>",
-    "^[./].*(?<!\\.(c|sc)ss)$",
-    "(c|sc)ss$"
-  ],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
-  "plugins": [
-    "eslint-config-prettier",
-    "prettier-plugin-tailwindcss",
-    "@trivago/prettier-plugin-sort-imports"
-  ]
+	"bracketSpacing": true,
+	"endOfLine": "auto",
+	"printWidth": 120,
+	"semi": false,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"tabWidth": 2,
+	"trailingComma": "es5",
+	"importOrder": [
+		"^react(.*)$",
+		"^react-dom(.*)$",
+		"^react-router-dom(.*)$",
+		"<THIRD_PARTY_MODULES>",
+		"^[./].*(?<!\\.(c|sc)ss)$",
+		"(c|sc)ss$"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"plugins": ["eslint-config-prettier", "@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"]
 }
